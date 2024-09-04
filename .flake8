@@ -1,0 +1,15 @@
+[flake8]
+# Maximum allowed line length, increase it from default 79
+max-line-length = 99
+
+# Ignore specific rules
+ignore = E501, F401, W503
+
+# Exclude specific directories or files from linting
+exclude =
+    .git,
+    __pycache__,
+    docs/,
+    old/,
+    build/,
+    dist/

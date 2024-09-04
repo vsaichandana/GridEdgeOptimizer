@@ -1,0 +1,21 @@
+{
+  "battery": {
+    "soc_min": 0,
+    "soc_max": 1,
+    "capacity": 10,
+    "power_rating": 5,
+    "eta_charge": 0.95,
+    "eta_discharge": 0.95
+  },
+  "solar": {
+    "grid_connection_capacity": 10
+  },
+  "optimization": {
+    "hours_per_day": 24,
+    "prices": [100, 200, 150, 300, 400, 250, 100, 50, 75, 125, 175, 225, 275, 325, 375, 425, 475, 525, 575, 625, 675, 725, 775, 825],
+    "solar_generation": [5, 4, 6, 8, 7, 5, 4, 3, 4, 6, 8, 7, 5, 4, 6, 8, 7, 5, 4, 3, 4, 6, 8, 7]
+  },
+  "gurobi": {
+    "threads": 4
+  }
+}
